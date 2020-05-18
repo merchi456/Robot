@@ -4,9 +4,6 @@
 <link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.m.in.js"></script>
 <style>
-.body {
-  background: rgba(red, green blue, 1);
-}
 
 .robot {
   position: relative;
@@ -163,13 +160,11 @@ $(".color").click(function() {
 
 //Generate an RGBA value from red, green, and blue blah blah 
   var randomRGBA = 'rgba('+red+','+green+','+blue+',1)';
-
-//randomRGBA is the RGBA value that will be put intoyour css to change the screen's background color
+  
+ //randomRGBA is the RGBA value that will be put intoyour css to change the screen's background color
  $("body").css("background", randomRGBA);
   //alert(randomRGBA);
- 
 });
-
 // random comment
 $(".moves").click(function() {
   $("img").toggle();
